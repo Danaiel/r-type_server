@@ -84,6 +84,9 @@
     <ClInclude Include="Server.h">
       <Filter>Fichiers d%27en-tête\Socket</Filter>
     </ClInclude>
+    <ClInclude Include="Socket\Windows\stdafx.h">
+      <Filter>Fichiers d%27en-tête\Socket</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

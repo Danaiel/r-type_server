@@ -154,6 +154,7 @@
     <ClInclude Include="Socket\Windows\Serveur\SServeur.hh" />
     <ClInclude Include="Socket\Windows\Serveur\WClient.hh" />
     <ClInclude Include="Socket\Windows\Serveur\WSServeur.hh" />
+    <ClInclude Include="Socket\Windows\stdafx.h" />
     <ClInclude Include="Socket\Windows\WMutex.hh" />
     <ClInclude Include="Socket\Windows\WThread.hh" />
     <ClInclude Include="stdafx.h" />
