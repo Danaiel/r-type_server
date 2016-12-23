@@ -166,7 +166,7 @@
   <ItemGroup>
     <ClCompile Include="Case.cpp" />
     <ClCompile Include="Map.cpp" />
-    <ClCompile Include="Player.ccp.cpp" />
+    <ClCompile Include="Player.cpp" />
     <ClCompile Include="Server R-Type.cpp" />
     <ClCompile Include="Socket\Windows\Serveur\WClient.cpp" />
     <ClCompile Include="Socket\Windows\Serveur\WSServeur.cpp" />

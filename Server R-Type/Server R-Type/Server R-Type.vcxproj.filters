@@ -107,9 +107,6 @@
     <ClCompile Include="Map.cpp">
       <Filter>Fichiers sources\Game</Filter>
     </ClCompile>
-    <ClCompile Include="Player.ccp.cpp">
-      <Filter>Fichiers sources\Game</Filter>
-    </ClCompile>
     <ClCompile Include="Weapon.cpp">
       <Filter>Fichiers sources\Game</Filter>
     </ClCompile>
@@ -118,6 +115,9 @@
     </ClCompile>
     <ClCompile Include="WThread.cpp">
       <Filter>Fichiers sources\Thread &amp; Mutex</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Fichiers sources\Game</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

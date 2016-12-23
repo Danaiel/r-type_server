@@ -1,5 +1,4 @@
-﻿  WMutex.cpp
-  Server R-Type.cpp
+﻿  Server R-Type.cpp
 c:\program files (x86)\windows kits\8.1\include\shared\ws2def.h(100): warning C4005: 'AF_IPX' : redéfinition de macro
   c:\program files (x86)\windows kits\8.1\include\um\winsock.h(452): note: voir la définition précédente de 'AF_IPX'
 c:\program files (x86)\windows kits\8.1\include\shared\ws2def.h(140): warning C4005: 'AF_MAX' : redéfinition de macro
@@ -174,4 +173,6 @@ c:\program files (x86)\windows kits\8.1\include\shared\ws2ipdef.h(715): error C2
 c:\users\danaiel\documents\visual studio 2015\projects\r-type_server\server r-type\server r-type\socket\windows\client\wsclient.h(54): error C2079: 'WSClient::_info' utilise une struct de 'sockaddr_in' non défini
 c:\users\danaiel\documents\visual studio 2015\projects\r-type_server\server r-type\server r-type\socket\windows\serveur\wclient.hh(44): error C2079: 'WClient::_Info' utilise une struct de 'sockaddr_in' non défini
 c:\users\danaiel\documents\visual studio 2015\projects\r-type_server\server r-type\server r-type\socket\windows\serveur\wsserveur.hh(53): error C2079: 'WSServeur::_Info' utilise une struct de 'sockaddr_in' non défini
+  Player.cpp
+c:\users\danaiel\documents\visual studio 2015\projects\r-type_server\server r-type\server r-type\player.cpp(1): fatal error C1041: impossible d'ouvrir la base de données du programme 'C:\Users\danaiel\Documents\Visual Studio 2015\Projects\r-type_server\Server R-Type\Server R-Type\Debug\vc140.pdb' ; si plusieurs CL.EXE écrivent dans le même fichier .PDB, utilisez /FS.
   Génération de code en cours...
