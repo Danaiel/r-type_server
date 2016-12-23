@@ -2,7 +2,7 @@
 # define WMUTEX_H_
 
 # include <Windows.h>
-# include "Mutex.h"
+# include "..\Mutex.hh"
 
 class WMutex : public Mutex
 {

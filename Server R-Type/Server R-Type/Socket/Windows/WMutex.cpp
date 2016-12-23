@@ -1,4 +1,5 @@
-# include "WMutex.h"
+#include "..\..\stdafx.h"
+#include "WMutex.hh"
 
 WMutex::WMutex()
 {

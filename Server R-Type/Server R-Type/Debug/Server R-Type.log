@@ -1,3 +1,5 @@
-﻿  Map.cpp
-  Server R-Type.vcxproj -> C:\Users\danaiel\Documents\Visual Studio 2015\Projects\Server R-Type\Debug\Server R-Type.exe
-  Server R-Type.vcxproj -> C:\Users\danaiel\Documents\Visual Studio 2015\Projects\Server R-Type\Debug\Server R-Type.pdb (Full PDB)
+﻿  WMutex.cpp
+c:\users\danaiel\documents\visual studio 2015\projects\r-type_server\server r-type\server r-type\socket\windows\wmutex.cpp(44): fatal error C1010: fin de fichier inattendue lors de la recherche d'un en-tête précompilé. N'auriez-vous pas oublié d'ajouter '#include "stdafx.h"' à votre source ?
+  Server R-Type.cpp
+c:\users\danaiel\documents\visual studio 2015\projects\r-type_server\server r-type\server r-type\socket\windows\client\usclient.h(7): fatal error C1083: Impossible d'ouvrir le fichier include : 'sys/socket.h' : No such file or directory
+  Génération de code en cours...

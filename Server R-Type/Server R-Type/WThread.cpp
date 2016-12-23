@@ -1,5 +1,6 @@
 // --- Projet RType
 // Windows Thread
+
 # include "stdafx.h"
 # include "WThread.h"
 

@@ -13,6 +13,24 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Fichiers d%27en-tête\Socket">
+      <UniqueIdentifier>{b97367d2-cd6f-4d9c-95fc-99f8b8f31887}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Socket">
+      <UniqueIdentifier>{dc891536-8374-4f87-8c59-b85b75a8ad19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game">
+      <UniqueIdentifier>{e6ec0831-df5a-45b0-9c1f-c7a5299d4980}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game">
+      <UniqueIdentifier>{2a1bee7f-d45f-4e28-9bea-e2ca31748f4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Thread &amp; Mutex">
+      <UniqueIdentifier>{c1111e13-d2e4-491a-ad7e-484ca4adfa79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Thread &amp; Mutex">
+      <UniqueIdentifier>{8e3a4a0c-1336-440a-9c5d-a1274771b40f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -24,44 +42,47 @@
     <ClInclude Include="targetver.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="Weapon.hh">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="Player.hh">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="Map.hh">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="Case.hh">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="Thread.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="WThread.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="Socket\Mutex.hh">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="Socket\Thread.hh">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="Socket\Windows\WMutex.hh">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="Socket\Windows\WThread.hh">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
     <ClInclude Include="Socket\Windows\Serveur\SServeur.hh">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="Socket\Windows\Serveur\WSServeur.hh">
-      <Filter>Fichiers d%27en-tête</Filter>
+      <Filter>Fichiers d%27en-tête\Socket</Filter>
     </ClInclude>
     <ClInclude Include="Socket\Windows\Serveur\WClient.hh">
-      <Filter>Fichiers d%27en-tête</Filter>
+      <Filter>Fichiers d%27en-tête\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket\Windows\Serveur\WSServeur.hh">
+      <Filter>Fichiers d%27en-tête\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="WThread.h">
+      <Filter>Fichiers d%27en-tête\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket\Windows\WThread.hh">
+      <Filter>Fichiers d%27en-tête\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="Case.hh">
+      <Filter>Fichiers d%27en-tête\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.hh">
+      <Filter>Fichiers d%27en-tête\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.hh">
+      <Filter>Fichiers d%27en-tête\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.hh">
+      <Filter>Fichiers d%27en-tête\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread.h">
+      <Filter>Fichiers d%27en-tête\Thread &amp; Mutex</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket\Thread.hh">
+      <Filter>Fichiers d%27en-tête\Thread &amp; Mutex</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket\Windows\WMutex.hh">
+      <Filter>Fichiers d%27en-tête\Thread &amp; Mutex</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket\Mutex.hh">
+      <Filter>Fichiers d%27en-tête\Thread &amp; Mutex</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>Fichiers d%27en-tête\Socket</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -71,35 +92,29 @@
     <ClCompile Include="Server R-Type.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="Case.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Map.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Player.ccp.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Weapon.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="WThread.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Socket\Windows\WMutex.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Socket\Windows\WThread.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Socket\Windows\Serveur\Serveur.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
     <ClCompile Include="Socket\Windows\Serveur\WClient.cpp">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers sources\Socket</Filter>
     </ClCompile>
     <ClCompile Include="Socket\Windows\Serveur\WSServeur.cpp">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers sources\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="Case.cpp">
+      <Filter>Fichiers sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Fichiers sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.ccp.cpp">
+      <Filter>Fichiers sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Fichiers sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Socket\Windows\WMutex.cpp">
+      <Filter>Fichiers sources\Thread &amp; Mutex</Filter>
+    </ClCompile>
+    <ClCompile Include="WThread.cpp">
+      <Filter>Fichiers sources\Thread &amp; Mutex</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

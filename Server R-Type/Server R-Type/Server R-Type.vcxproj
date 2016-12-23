@@ -148,6 +148,7 @@
     <ClInclude Include="Case.hh" />
     <ClInclude Include="Map.hh" />
     <ClInclude Include="Player.hh" />
+    <ClInclude Include="Server.h" />
     <ClInclude Include="Socket\Mutex.hh" />
     <ClInclude Include="Socket\Thread.hh" />
     <ClInclude Include="Socket\Windows\Serveur\SServeur.hh" />
@@ -166,11 +167,9 @@
     <ClCompile Include="Map.cpp" />
     <ClCompile Include="Player.ccp.cpp" />
     <ClCompile Include="Server R-Type.cpp" />
-    <ClCompile Include="Socket\Windows\Serveur\Serveur.cpp" />
     <ClCompile Include="Socket\Windows\Serveur\WClient.cpp" />
     <ClCompile Include="Socket\Windows\Serveur\WSServeur.cpp" />
     <ClCompile Include="Socket\Windows\WMutex.cpp" />
-    <ClCompile Include="Socket\Windows\WThread.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
